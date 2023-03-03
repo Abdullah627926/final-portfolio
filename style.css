@@ -25,6 +25,9 @@ body{
     color: rgb(205, 205, 201);
     text-decoration: none;
 }
+.n2 a:hover{
+    color: yellow;
+}
 .n2{ 
     width: 44%;
     list-style: none;
@@ -121,14 +124,16 @@ font-size: 32px;
     margin: 21px 0px 17px 166px;
     padding: 41px 1px 36px 0px;
     text-transform: capitalize;
-    box-shadow: rgb(71, 71, 75) 0px -4px 8px 0px
+    box-shadow: rgb(71, 71, 75) 0px -4px 8px 0px;
+
 }
 .i1{
     background-color: #616167;
     font-size: 50px;
     padding:     background-color: #616167;
     font-size: 50px;
-    padding: 15px 51px 16px 23px
+    padding: 15px 51px 16px 23px;
+    box-shadow: rgb(71 71 75) 0px -4px 8px 0px;
 }
 .fa-meta{
     color: rgb(9, 75, 243);
@@ -136,19 +141,22 @@ font-size: 32px;
 .i4{
     font-size: 50px;
     background-color: #616167;
-    padding: 17px 44px 10px 25px
+    padding: 17px 44px 10px 25px;
+    box-shadow: rgb(71 71 75) 0px -4px 8px 0px;
 }
 .i3{
     font-size: 50px;
     background-color: #616167;
-    padding: 12px 24px 15px 33px
+    padding: 12px 24px 15px 33px;
+    box-shadow: rgb(71 71 75) 0px -4px 8px 0px;
 }
 .fa-linkedin{
     color: rgb(9, 75, 243);
 }
 .i2{
     background-color: #616167;
-    padding: 18px 51px 8px 43px
+    padding: 18px 51px 8px 43px;
+    box-shadow: rgb(71 71 75) 0px -4px 8px 0px;
 }
 .i2 img{
     width: 170px;
@@ -161,6 +169,7 @@ font-size: 32px;
     display: flex;
     margin-top: 100px;
     justify-content: space-around;
+    /* padding: 130px 0px 0px 0px */
 }
 .bottom h4{
     font-size: 60px;
@@ -207,7 +216,9 @@ font-size: 32px;
 }
 
 .contentarea {
-    margin: 43px 21px 0px 25px
+    margin: 43px 21px 0px 25px;
+    z-index: 1;
+
 }
 
 .contentarea h2 {
@@ -234,3 +245,7 @@ font-size: 32px;
 .ui1{
 
 }
+/* .section2{
+    background-color: #575762;
+    margin: -176px 0px 0px 0px
+} */
